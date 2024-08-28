@@ -1,0 +1,36 @@
+.item{
+    user-select: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    input{
+        width: 530px;
+        //background: red
+        //display: none;
+    }
+    label{
+        &.checked{
+            opacity: 0.5;
+            text-decoration: line-through;
+        }
+
+    }
+}
+.radio__marker{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5bce5b;
+    svg{
+        width: 90%;
+        height: 90%;
+    }
+    &.checked{
+        border-color: #5bce5b;
+    }
+}

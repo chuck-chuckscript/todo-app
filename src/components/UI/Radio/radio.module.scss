@@ -1,0 +1,15 @@
+.radio{
+  display: flex;
+  position: relative;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  &.active{
+    border-color: #cbcbcb;
+  }
+
+  &:hover{
+    background-color: #e8e8e8;
+  }
+
+}

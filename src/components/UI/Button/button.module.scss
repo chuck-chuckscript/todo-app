@@ -1,0 +1,18 @@
+button{
+  padding: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+}
+.button{
+  border-radius: 5px;
+  svg{
+    width: 90%;
+    height: 90%;
+  }
+}
+.styled{
+  background-color: red;
+}
