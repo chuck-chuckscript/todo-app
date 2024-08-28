@@ -17,5 +17,5 @@
 + Scss
 + TypeScript
 
-#### Ссылка на приложение: [Todo-app]() 
+#### Ссылка на приложение: [Todo-app](https://todo-app-xi-five-54.vercel.app) 
 
